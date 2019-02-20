@@ -1,0 +1,81 @@
+/* Add the selectors, properties, and values necessary 
+   to match the index.html file to the mockup.png image. */
+
+#banner {
+    content: url(../images/banner1.jpg);
+    width: 100%;    
+}
+
+section {
+    
+    margin-top:-54px;
+    color: #5aaacc;
+    background-color: #191814;
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 1em;
+    max-width: 20
+}
+
+
+h1 {
+    
+    margin-top:-4px;
+    background-color: #02537d;
+    font-family: Georgia, serif;
+    text-transform:  uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #e7d15e;
+    font-size: 5em;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #02537d;
+    font-family: Georgia, serif;
+    text-transform:  uppercase;
+    text-align: center;
+    font-size: 3em;
+    color: #e7d15e;
+   
+}
+body{
+    margin: 0px;
+    background-color: #e8e4e0;
+    background-image: url(../images/bricks.jpg);
+    background-repeat: repeat-y;
+    
+    
+}
+p{  font-family: Tahoma;
+    font-weight:normal;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #e8e4e0;
+    color: #191814;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    
+}
+
+footer{
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: #191814;
+    color: #e7d15e;
+}
+
+.side{
+    
+    margin-top: 0px;
+    float: left;
+    
+    
+}
+.dropcap{
+    font-size: 2em;
+}
